@@ -3,6 +3,7 @@
 -- Add any additional keymaps here
 
 vim.keymap.del({ "n" }, "<leader>l", {})
+vim.keymap.del({ "n" }, "<leader>L", {})
 local map = vim.keymap.set
 local opt = { silent = true }
 
@@ -31,3 +32,5 @@ end, { desc = "Buffer" })
 map({ "n", "v", "i" }, "<F1>", function()
   vim.lsp.buf.signature_help()
 end, { desc = "Signature Help" })
+
+map({ "n", "v" }, "<leader>w9", "<cmd>Trouble symbols toggle<cr>", { desc = "Symbols (Trouble)" })
