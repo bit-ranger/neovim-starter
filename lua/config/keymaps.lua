@@ -24,6 +24,10 @@ map("n", "clb", "c^", opt)
 map("n", "clB", "c0", opt)
 map("n", "cle", "c$", opt)
 
+map({ "n", "v" }, "<leader>bb", function()
+  Snacks.picker.buffers()
+end, { desc = "Buffer" })
+
 map({ "n", "v", "i" }, "<F1>", function()
   vim.lsp.buf.signature_help()
 end, { desc = "Signature Help" })
