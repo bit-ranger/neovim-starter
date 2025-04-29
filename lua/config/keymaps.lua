@@ -33,4 +33,4 @@ map({ "n", "v", "i" }, "<F1>", function()
   vim.lsp.buf.signature_help()
 end, { desc = "Signature Help" })
 
-map({ "n", "v" }, "<leader>w9", "<cmd>Trouble symbols toggle<cr>", { desc = "Symbols (Trouble)" })
+map({ "n", "v" }, "<leader>wws", "<cmd>Trouble symbols toggle<cr>", { desc = "Symbols (Trouble)" })
