@@ -48,4 +48,4 @@ end, { desc = "Signature Help" })
 
 
 map({ "n", "v" }, "<leader>wws", "<cmd>Trouble symbols toggle<cr>", { desc = "Symbols (Trouble)" })
-map({ "n", "v" }, "<leader>cc", "gcc", { desc = "Toogle Comment Line" })
+-- map({ "n", "v" }, "<leader>cc", "gcc", { desc = "Toogle Comment Line" })
