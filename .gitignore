@@ -7,3 +7,5 @@ foo.*
 *.log
 data
 .idea
+lazyvim.json
+lazy-lock.json
