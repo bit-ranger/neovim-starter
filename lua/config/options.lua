@@ -4,3 +4,4 @@
 vim.g.autoformat = false
 vim.opt.relativenumber = false
 vim.opt.wrap = true
+vim.opt.spelllang = { }
